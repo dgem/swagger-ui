@@ -43,7 +43,7 @@
       var token = $('#qb-token')[0].value;
       console.log("QB-Token: " + token);
       if(token && token.trim() != "") {
-        console.log("Adding token " + key);
+        console.log("Adding token " + token);
         window.authorizations.add("key", new ApiKeyAuthorization("token", token, "query"));
       }
     })
