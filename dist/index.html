@@ -39,8 +39,8 @@
       docExpansion: "none"
     });
 
-    $('#input_qb-token').change(function() {
-      var token = $('#input_qb-token')[0].value;
+    $('#qb-token').change(function() {
+      var token = $('#qb-token')[0].value;
       console.log("QB-Token: " + token);
       if(token && token.trim() != "") {
         console.log("Adding token " + token);
@@ -66,7 +66,7 @@
         <img id="show-wordnik-dev-icon" src="images/wordnik_api.png" title="Show Wordnik Developer Apis">
       </div>
       <div class='input'><input placeholder="http://example.com/api" id="input_baseUrl" name="baseUrl" type="text"/></div>
-      <div class='input'><input placeholder="QuickBlox token" id="input_qb-token" name="qb-token" type="text"/></div>
+      <div class='input'><input placeholder="QuickBlox token" id="qb-token" name="qb-token" type="text"/></div>
       <div class='input'><a id="explore" href="#">Explore</a></div>
     </form>
   </div>
