@@ -1782,3 +1782,7 @@ pre code {
 .info_contact {
   padding-bottom: 5px;
 }
+
+#qb-token {
+  width: 250px;
+}
