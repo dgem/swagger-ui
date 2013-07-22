@@ -138,7 +138,7 @@ input.parameter {
 
 .body-textarea {
     width: 300px;
-    height: 100px;
+    //height: 100px;
     border: 1px solid #aaa;
 }
 
@@ -284,7 +284,7 @@ form.form_box {
 }
 
 form.form_box label {
-    color: #0f6ab4 !important;
+    color: #007dfb !important;
 }
 
 form.form_box input[type=submit] {
@@ -400,7 +400,8 @@ body #content_message {
 }
 
 body #header {
-    background-color: #89bf04;
+    //background-color: #89bf04;
+    background: transparent url(../../../media/bg-header.png) no-repeat center center;
     padding: 14px;
 }
 
@@ -408,9 +409,9 @@ body #header a#logo {
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
-    background: transparent url(../images/logo_small.png) no-repeat left center;
+    //background: transparent url(../../../media/QB_logos/logo_small_nocaption.png) no-repeat left center;
     padding: 20px 0 20px 40px;
-    color: white;
+    //color: white;
 }
 
 body #header form#api_selector {
@@ -601,7 +602,7 @@ body ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operatio
 
 body ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation.get div.heading h3 span.http_method a {
     text-transform: uppercase;
-    background-color: #0f6ab4;
+    background-color: #007dfb;
     text-decoration: none;
     color: white;
     display: inline-block;
@@ -658,12 +659,12 @@ body ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operatio
 
 body ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation.get div.heading ul.options li {
     border-right-color: #c3d9ec;
-    color: #0f6ab4;
+    color: #007dfb;
     font-size: 0.9em;
 }
 
 body ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation.get div.heading ul.options li a {
-    color: #0f6ab4;
+    color: #007dfb;
     text-decoration: none;
 }
 
@@ -692,7 +693,7 @@ body ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operatio
 }
 
 body ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation.get div.content h4 {
-    color: #0f6ab4;
+    color: #007dfb;
     font-size: 1.1em;
     margin: 0;
     padding: 15px 0 5px;
@@ -776,7 +777,8 @@ body ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operatio
 
 body ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation.post div.heading h3 span.http_method a {
     text-transform: uppercase;
-    background-color: #10a54a;
+    //background-color: #91c341;
+    background-color: #91c341;
     text-decoration: none;
     color: white;
     display: inline-block;
@@ -833,12 +835,12 @@ body ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operatio
 
 body ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation.post div.heading ul.options li {
     border-right-color: #c3e8d1;
-    color: #10a54a;
+    color: #91c341;
     font-size: 0.9em;
 }
 
 body ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation.post div.heading ul.options li a {
-    color: #10a54a;
+    color: #91c341;
     text-decoration: none;
 }
 
@@ -867,7 +869,7 @@ body ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operatio
 }
 
 body ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation.post div.content h4 {
-    color: #10a54a;
+    color: #91c341;
     font-size: 1.1em;
     margin: 0;
     padding: 15px 0 5px;
@@ -1728,7 +1730,7 @@ pre code {
 .content > .content-type > div > label {
   clear: both;
   display: block;
-  color: #0F6AB4;
+  color: #007dfb;
   font-size: 1.1em;
   margin: 0;
   padding: 15px 0 5px;
